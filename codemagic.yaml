@@ -6,10 +6,10 @@ workflows:
         name: iOS App with Flutter Module
         environment:
             vars:
-                FLUTTER_MODULE_DIR: "{{ ADD YOUR PATH HERE }}"
-                HOST_IOS_APP_DIR: "{{ ADD YOUR PATH HERE }}"
-                XCODE_PROJECT: "{{ ADD WORKSPACE NAME HERE }}"
-                XCODE_SCHEME: "{{ ADD SCHEME NAME HERE }}"
+                FLUTTER_MODULE_DIR: "sms_read_and_send_app_demo\lib"
+                HOST_IOS_APP_DIR: "sms_read_and_send_app_demo\ios"
+                XCODE_PROJECT: "myWorkSpace"
+                XCODE_SCHEME: "myScheme"
             xcode: edge
             cocoapods: default
             flutter: stable
